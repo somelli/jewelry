@@ -1,0 +1,23 @@
+<svg width="22" height="22" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clip0_0_1">
+   <rect id="svg_1" x="-1079" y="-76" fill="white" height="5031" width="1440"/>
+  </clipPath>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="24" width="24" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_2" fill="#E5E5E5" height="22" width="15"/>
+  <g clip-path="url(#clip0_0_1)" id="Frame 3">
+   <rect id="svg_3" x="-1079" y="-76" fill="white" height="5031" width="1440"/>
+   <rect fill="#272727" height="1024" width="562" y="-76" x="-201" id="Rectangle 2"/>
+   <g stroke="null" id="Vector">
+    <path fill="#272727" fill-opacity="0" stroke="white" id="svg_4" stroke-width="1.8" d="m16.160057,5.44444c0,2.4546 -2.261759,4.44445 -5.051818,4.44445c-2.790059,0 -5.051853,-1.98985 -5.051853,-4.44445c0,-2.45459 2.261794,-4.44444 5.051853,-4.44444c2.790059,0 5.051818,1.98985 5.051818,4.44444z"/>
+    <path fill="none" stroke="white" id="svg_5" stroke-width="1.8" d="m3.530453,15.4444c0,-3.0682 2.827237,-5.55551 6.314825,-5.55551l2.525921,0c3.487612,0 6.314825,2.48731 6.314825,5.55551l0,4.4445c0,0.6136 -0.565419,1.1111 -1.262925,1.1111l-12.629686,0c-0.697518,0 -1.26296,-0.4975 -1.26296,-1.1111l0,-4.4445z"/>
+   </g>
+  </g>
+ </g>
+</svg>

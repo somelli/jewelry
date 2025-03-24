@@ -1,0 +1,20 @@
+<svg width="22" height="22" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clip0_0_1">
+   <rect width="1440" height="5031" fill="white" y="-76" x="-1132" id="svg_1"/>
+  </clipPath>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="3.87196" height="3.87196" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect width="17" height="22" fill="#E5E5E5" id="svg_2"/>
+  <g id="Frame 3" clip-path="url(#clip0_0_1)">
+   <rect width="1440" height="5031" fill="white" y="-76" x="-1132" id="svg_3"/>
+   <rect id="Rectangle 2" x="-254" y="-76" width="562" height="1024" fill="#272727"/>
+   <path fill="none" id="Rectangle" d="m6.341085,8.116279l-2.984496,0c-0.659311,0 -1.193798,0.44772 -1.193798,1l0,11c0,0.5523 0.534487,1 1.193798,1l15.519379,0c0.659335,0 1.193798,-0.4477 1.193798,-1l0,-11c0,-0.55228 -0.534464,-1 -1.193798,-1l-2.984496,0m-9.550387,0l0,-3c0,-2.20914 2.137926,-4 4.775194,-4l0,0c2.63722,0 4.775194,1.79086 4.775194,4l0,3m-9.550387,0l9.550387,0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+  </g>
+ </g>
+</svg>

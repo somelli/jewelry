@@ -1,0 +1,1650 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Forum&display=swap');
+/* Futura PT == Alegreya Sans */
+
+/* 
+1. Header
+2. Block1
+3. Block2 
+4. Block3
+5. Block4 
+6. Block5 
+7. Block6 
+8. Footer
+9. Adaptation
+ */
+
+body {
+    margin: 0px;
+}
+
+/* 1. Header */
+/* #region */
+header {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 60%, rgba(39, 39, 39, 1) 0%);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 3% 9% 0% 9%;
+}
+
+.div_logo {
+    width: 22%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.div_pages_and_menu {
+    display: flex;
+    justify-content: space-between;
+
+    min-width: 25%;
+}
+
+.div_pages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 47%;
+}
+
+.div_pages>a {
+    width: 15%;
+}
+
+.pages {
+    width: 100%;
+}
+
+.div_menu {
+    width: 10%;
+
+    cursor: pointer;
+}
+
+.menu {
+    width: 100%;
+}
+
+/* #endregion */
+
+/* 2.Block1 */
+/* #region */
+
+
+.block1 {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 60%, rgba(39, 39, 39, 1) 0%);
+}
+
+.collection {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10% 28% 10% 9%;
+}
+
+.text_collection {
+    width: 60%;
+}
+
+.text_collection1 {
+    font-family: Forum;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 71px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+.text_collection2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    width: 100%;
+}
+
+.text_collection_line {
+    width: 25%;
+    height: 1px;
+    background-color: rgba(39, 39, 39, 1);
+}
+
+.text_collection2>a {
+    font-family: Segoe UI;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 10%;
+}
+
+.img_collection {
+    width: 35%;
+}
+
+.collection_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    padding: 6% 9% 3% 9%;
+}
+
+.lang {
+    display: flex;
+    justify-content: space-between;
+
+    width: 5%;
+}
+
+.lang>a {
+    font-family: Alegreya Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.lang1 {
+    color: rgba(39, 39, 39, 1);
+}
+
+.lang2 {
+    color: rgba(196, 196, 196, 1);
+}
+
+.price_jewelry {
+    text-align: end;
+}
+
+.name_jewelry {
+    font-family: Alegreya Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 1);
+
+    margin-bottom: 5px;
+}
+
+.composition {
+    font-family: Alegreya Sans;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: rgba(194, 194, 194, 1);
+    margin: 0%;
+}
+
+.price {
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(239, 197, 139, 1);
+
+
+}
+
+
+/* #endregion */
+
+/* 3. Block2 */
+/* #region */
+.block2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+
+    height: 550px;
+}
+
+.layer {
+    background-color: rgba(39, 39, 39, 0.4);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.men_section {
+    background-image: url(/картинки/men.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+}
+
+.women_section {
+    background-image: url(/картинки/women.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+}
+
+.go_section {
+    font-family: Alegreya Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    margin: 0%;
+
+}
+
+.for_m_w {
+    font-family: Forum;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 71px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+.block2_line {
+    width: 20%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* #endregion */
+
+/* 4. Block3 */
+/* #region */
+.block3 {
+    display: flex;
+
+    height: 600px;
+    padding-top: 2%;
+}
+
+.block3_left {
+    width: 50%;
+    background-color: rgba(39, 39, 39, 1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.left_text1 {
+    font-family: Forum;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+    padding-left: 18%;
+    padding-right: 30%;
+    margin: 0%;
+}
+
+.left_text2 {
+    font-family: Alegreya Sans;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+    padding-left: 18%;
+    padding-right: 28%;
+    margin-bottom: 8%;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #EFEFEF;
+    padding: 2px;
+    width: 50%;
+
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.enter_address {
+    width: 94%;
+    border: none;
+    background-color: transparent;
+    color: #EFEFEF;
+    outline: none;
+}
+
+.enter_address::placeholder {
+    font-family: Alegreya Sans;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.button_search {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 2px;
+}
+
+.button_search>img {
+    width: 35px;
+}
+
+.block3_right {
+    width: 50%;
+    background-image: url(/картинки/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* #endregion */
+
+/* 5. Block4  */
+/* #region */
+
+.block4 {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+#name_jewelry_id {
+    color: #000000;
+}
+
+.block4_center {
+    background-image: url(/картинки/necklace\ etolie.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+    width: 40%;
+    padding-left: 3%;
+}
+
+.block4_left,
+.block4_right {
+    width: 26%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#block4_all {
+    background-color: #ebebeb;
+    padding: 10% 10% 3% 10%;
+    margin-bottom: 7%;
+    height: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.block4_div_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 70%;
+}
+
+.block4_div_img>img {
+    width: 100%;
+}
+
+/* #endregion */
+
+/* 6. Block5 */
+/* #region */
+
+.block5 {
+    background-color: rgba(39, 39, 39, 1);
+}
+
+.block5_text {
+    padding: 5% 60% 5% 6%;
+}
+
+.block5_text>p {
+    font-family: Forum;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin: 0%;
+
+    color: #FFFFFF;
+
+}
+
+.block5_foto {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 0% 11%;
+}
+
+.block5_icon {
+    display: flex;
+    justify-content: space-between;
+
+    width: 6%;
+    padding: 5% 0% 3% 6%;
+}
+
+/* #endregion */
+
+/* 7. Block6  */
+/* #region */
+
+.block6 {
+    display: flex;
+
+    height: 640px;
+}
+
+.block6_left {
+    width: 50%;
+    background-image: url(/картинки/img_block6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block6_right {
+    width: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.right_text1 {
+    font-family: Alegreya Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+    color: #000000;
+
+    padding-left: 25%;
+    padding-right: 30%;
+    margin: 0%;
+}
+
+.right_text2 {
+    font-family: Segoe UI;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: rgba(149, 149, 149, 1);
+
+    padding-left: 25%;
+    padding-right: 28%;
+    margin-bottom: 15%;
+}
+
+.sub>p {
+    font-family: Alegreya Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+
+    padding-left: 25%;
+    padding-bottom: 2%;
+}
+
+.search1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #000000;
+    padding: 2px;
+    width: 50%;
+
+    margin-left: 25%;
+    margin-right: 18%;
+}
+
+.email {
+    width: 94%;
+    border: none;
+    background-color: transparent;
+    color: #EFEFEF;
+    outline: none;
+}
+
+.email::placeholder {
+    font-family: Alegreya Sans;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.button_email {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 2px;
+}
+
+.button_email>img {
+    width: 35px;
+}
+
+
+/* #endregion */
+
+/* 8. Footer  */
+/* #region */
+
+footer {
+    background-color: rgba(39, 39, 39, 1);
+
+    padding: 7% 9% 3% 9%;
+}
+
+.footer_link {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    padding-bottom: 8%;
+}
+
+.link {
+    font-family: Alegreya Sans;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_contact {
+    width: 50%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer_contact_left1 {
+    font-family: Alegreya Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer_contact_left2 {
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(194, 194, 194, 1);
+}
+
+.footer_icon {
+    display: flex;
+    justify-content: space-between;
+
+    width: 50%;
+}
+
+.footer_contact_right {
+    width: 45%;
+}
+
+.sub2 {
+    font-family: Alegreya Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.market {
+    display: flex;
+    justify-content: space-between;
+
+    width: 60%;
+
+    padding-top: 6%;
+}
+
+.search3 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #EFEFEF;
+    padding: 2px;
+
+}
+
+/* #endregion */
+
+/* 9. Adaptation */
+/* #region */
+
+@media screen and (width < 1156px) {
+    /* 2. Block1 */
+
+    .collection {
+        padding: 10% 25% 6% 9%;
+    }
+
+    .text_collection1 {
+        font-size: 50px;
+    }
+
+    .img_collection {
+        width: 40%;
+    }
+
+    .lang>a {
+        font-size: 13px;
+    }
+
+    .price_ring>p {
+        font-size: 16px;
+    }
+
+    /* 3. Block2 */
+
+    .block2 {
+        height: 460px;
+    }
+
+    .go_section {
+        font-size: 21px;
+
+    }
+
+    .for_m_w {
+        font-size: 61px;
+    }
+
+    /* 4. Block3 */
+
+    .block3 {
+        height: 460px;
+    }
+
+    .left_text1 {
+        font-size: 40px;
+
+        padding-right: 20%;
+    }
+
+    .left_text2 {
+        font-size: 17px;
+    }
+
+    .enter_address::placeholder {
+        font-size: 16px;
+    }
+
+    /* 5. Block4  */
+
+    #block4_all {
+        padding: 1% 10% 3% 10%;
+        height: 300px;
+
+    }
+
+    .block4_div_img {
+        height: 60%;
+    }
+
+    .name_jewelry,
+    .composition,
+    .price {
+        font-size: 14px;
+    }
+
+    /* 6. Block5  */
+
+    .block5_text>p {
+        font-size: 45px;
+    }
+
+    .block5_foto>img {
+        width: 30%;
+    }
+
+    .block5_icon {
+        width: 9%;
+        padding: 5% 0% 3% 6%;
+    }
+
+    /* 7. Block6  */
+
+    .block6 {
+        height: 460px;
+    }
+
+    /* 8. Footer  */
+
+    .link {
+        font-size: 14px;
+    }
+
+    .footer_contact_left1 {
+        font-size: 13px;
+    }
+
+    .footer_contact_left2 {
+        font-size: 16px;
+    }
+
+    .sub2 {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (width < 801px) {
+
+    /* 2. Block1 */
+    .collection {
+        padding: 10% 25% 6% 9%;
+    }
+
+    .text_collection1 {
+        font-size: 40px;
+    }
+
+    .text_collection2>a {
+        font-size: 14px;
+    }
+
+    .img_collection {
+        width: 40%;
+    }
+
+    .lang>a {
+        font-size: 9px;
+    }
+
+    .price_ring>p {
+        font-size: 13px;
+        margin: 2% 0%;
+    }
+
+    /* 3. Block2 */
+
+    .block2 {
+        height: 360px;
+    }
+
+    .go_section {
+        font-size: 18px;
+
+    }
+
+    .for_m_w {
+        font-size: 53px;
+    }
+
+    /* 4. Block3 */
+
+    .block3 {
+        height: 380px;
+    }
+
+    .left_text1 {
+        font-size: 35px;
+        line-height: 35px;
+
+    }
+
+    .left_text2 {
+        font-size: 15px;
+    }
+
+    .enter_address::placeholder {
+        font-size: 16px;
+    }
+
+    /* 5. Block4  */
+
+    #block4_all {
+        padding: 1% 10% 3% 10%;
+        height: 52%;
+
+    }
+
+    .block4_div_img {
+        height: 45%;
+    }
+
+    .name_jewelry,
+    .composition,
+    .price {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    /* 6. Block5  */
+
+    .block5_text {
+        padding: 5% 50% 5% 6%;
+    }
+
+    .block5_text>p {
+        font-size: 35px;
+        line-height: 40px;
+
+    }
+
+    .block5_foto>img {
+        width: 30%;
+    }
+
+    .block5_icon {
+        width: 12%;
+    }
+
+    .block5_icon>img {
+        width: 2%;
+    }
+
+    /* 7. Block6 */
+
+    .block6 {
+        height: 360px;
+    }
+
+    .right_text1 {
+        font-size: 15px;
+    }
+
+    .right_text2 {
+        font-size: 18px;
+    }
+
+    .sub>p {
+        font-size: 15px;
+    }
+
+    .email::placeholder {
+        font-size: 16px;
+    }
+
+    /* 8. Footer  */
+
+    .link {
+        font-size: 9px;
+    }
+
+    .footer_contact_left1 {
+        font-size: 11px;
+    }
+
+    .footer_contact_left2 {
+        font-size: 14px;
+    }
+
+    .sub2 {
+        font-size: 11px;
+    }
+
+    .search3>.enter_address::placeholder {
+        font-size: 13px;
+    }
+
+    .footer_icon>a>img {
+        width: 70%;
+    }
+
+    .market>img {
+        width: 80%;
+    }
+
+}
+
+@media screen and (width < 641px) {
+
+    /* 2. Block1 */
+    .collection {
+        padding: 10% 25% 6% 9%;
+    }
+
+    .text_collection1 {
+        font-size: 28px;
+    }
+
+    .text_collection2>a {
+        font-size: 12px;
+    }
+
+    .img_collection {
+        width: 40%;
+    }
+
+    .lang>a {
+        font-size: 7px;
+    }
+
+    .price_jewelry>p {
+        font-size: 11px;
+        margin: 2% 0%;
+    }
+
+    /* 3. Block2 */
+
+    .block2 {
+        height: 280px;
+    }
+
+    .go_section {
+        font-size: 14px;
+
+    }
+
+    .for_m_w {
+        font-size: 30px;
+    }
+
+    /* 4. Block3 */
+
+    .block3 {
+        height: 280px;
+    }
+
+    .left_text1 {
+        font-size: 22px;
+        line-height: 30px;
+
+    }
+
+    .left_text2 {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .enter_address::placeholder {
+        font-size: 12px;
+    }
+
+    .search {
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+    }
+
+    .button_search {
+        width: 30%;
+
+        padding-top: 8px;
+    }
+
+    .button_search>img {
+        width: 80%;
+    }
+
+    /* 5. Block4  */
+
+    #block4_all {
+        padding: 15% 10% 3% 10%;
+        margin: 0px;
+        height: 40%;
+
+    }
+
+    .block4_center {
+        height: 400px;
+    }
+
+    .block4_left,
+    .block4_right {
+        height: 400px;
+    }
+
+    .name_jewelry,
+    .composition,
+    .price {
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+    /* 6. Block5  */
+
+    .block5_text {
+        padding: 5% 50% 5% 6%;
+    }
+
+    .block5_text>p {
+        font-size: 25px;
+        line-height: 30px;
+
+    }
+
+    .block5_foto>img {
+        width: 30%;
+    }
+
+    .block5_icon {
+        width: 16%;
+    }
+
+    .block5_icon>a>img {
+        width: 80%;
+    }
+
+    /* 7. Block6 */
+
+    .block6 {
+        height: 280px;
+
+    }
+
+    .right_text1 {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .right_text2 {
+        font-size: 13px;
+    }
+
+    .sub>p {
+        font-size: 11px;
+    }
+
+    .email::placeholder {
+        font-size: 12px;
+    }
+
+    .search1 {
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+
+    .button_email {
+        width: 30%;
+
+        padding-top: 8px;
+    }
+
+    .button_email>img {
+        width: 80%;
+    }
+
+    /* 8. Footer  */
+
+    .link {
+        font-size: 6px;
+    }
+
+    .footer_contact_left1 {
+        font-size: 6px;
+        line-height: 1px;
+    }
+
+    .footer_contact_left2 {
+        font-size: 8px;
+        line-height: 15px;
+    }
+
+    .sub2 {
+        font-size: 6px;
+        line-height: 1px;
+    }
+
+    .search3>.enter_address::placeholder {
+        font-size: 8px;
+    }
+
+    .footer_icon>a>img {
+        width: 70%;
+    }
+
+    .market>img {
+        width: 80%;
+    }
+
+
+    .search3 {
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+        padding: 0px;
+    }
+
+}
+
+@media screen and (width < 459px) {
+
+    /* 2. Block1 */
+    .collection {
+        padding: 10% 20% 6% 9%;
+    }
+
+    .text_collection1 {
+        font-size: 22px;
+    }
+
+    .text_collection2>a {
+        font-size: 9px;
+    }
+
+    .img_collection {
+        width: 40%;
+    }
+
+    .lang {
+        width: 10%;
+    }
+
+    .lang>a {
+        font-size: 7px;
+    }
+
+    .price_jewelry>p {
+        font-size: 8.5px;
+        margin: 2% 0%;
+    }
+
+    /* 3. Block2 */
+
+    .block2 {
+        height: 200px;
+    }
+
+    .go_section {
+        font-size: 10px;
+
+    }
+
+    .for_m_w {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    /* 4. Block3 */
+
+    .block3 {
+        height: 200px;
+    }
+
+    .left_text1 {
+        font-size: 18px;
+        line-height: 20px;
+
+    }
+
+    .left_text2 {
+        font-size: 8px;
+        line-height: 13px;
+    }
+
+    .enter_address::placeholder {
+        font-size: 10px;
+    }
+
+    .search {
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+    }
+
+    .button_search {
+        width: 30%;
+
+        padding-top: 8px;
+    }
+
+    .button_search>img {
+        width: 80%;
+    }
+
+    /* 5. Block4  */
+
+    #block4_all {
+        padding: 15% 10% 3% 10%;
+        margin: 0px;
+        height: 40%;
+
+    }
+
+    .block4_center {
+        height: 300px;
+    }
+
+    .block4_left,
+    .block4_right {
+        height: 300px;
+    }
+
+    .name_jewelry,
+    .composition,
+    .price {
+        font-size: 8px;
+        line-height: 8px;
+    }
+
+    /* 6. Block5  */
+
+    .block5_text {
+        padding: 5% 50% 5% 6%;
+    }
+
+    .block5_text>p {
+        font-size: 18px;
+        line-height: 30px;
+
+    }
+
+    .block5_foto>img {
+        width: 30%;
+    }
+
+    .block5_icon {
+        width: 12%;
+    }
+
+    .block5_icon>a>img {
+        width: 70%;
+    }
+
+    /* 7. Block6 */
+
+    .block6 {
+        height: 200px;
+
+    }
+
+    .right_text1 {
+        font-size: 8px;
+        line-height: 10px;
+
+        padding-right: 20%;
+    }
+
+    .right_text2 {
+        font-size: 10px;
+        margin-bottom: 2%;
+        margin-top: 1%;
+    }
+
+    .sub>p {
+        font-size: 8px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .email::placeholder {
+        font-size: 9px;
+    }
+
+    .search1 {
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+
+    .button_email {
+        width: 30%;
+
+        padding-top: 8px;
+    }
+
+    .button_email>img {
+        width: 70%;
+    }
+
+    /* 8. Footer  */
+
+    .footer_link {
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        padding-bottom: 5%;
+    }
+
+    .link {
+        font-size: 6px;
+        line-height: 20px;
+
+        padding-right: 4%;
+        padding-left: 4%;
+
+    }
+
+    .footer_contact_left1 {
+        font-size: 5px;
+        line-height: 6px;
+    }
+
+    .footer_contact_left2 {
+        font-size: 7px;
+        line-height: 15px;
+    }
+
+    .sub2 {
+        font-size: 5px;
+        line-height: 6px;
+    }
+
+    .search3>.enter_address::placeholder {
+        font-size: 6px;
+    }
+
+    .footer_icon>a>img {
+        width: 60%;
+    }
+
+    .market>img {
+        width: 80%;
+    }
+
+
+    .search3 {
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+        padding: 0px;
+    }
+}
+
+@media screen and (width < 328px) {
+
+    /* 1. Header */
+
+    .div_pages_and_menu {
+        width: 30%;
+    }
+
+    .div_pages {
+        width: 70%;
+    }
+
+    /* 2. Block1 */
+    .collection {
+        padding: 10% 20% 6% 9%;
+    }
+
+    .text_collection1 {
+        font-size: 15px;
+    }
+
+    .text_collection2>a {
+        font-size: 5px;
+    }
+
+    .text_collection_line {
+        width: 30%;
+        height: 0.3px;
+    }
+
+    .img_collection {
+        width: 35%;
+    }
+
+    .lang {
+        width: 10%;
+    }
+
+    .lang>a {
+        font-size: 5px;
+    }
+
+    .price_jewelry>p {
+        font-size: 5.5px;
+        margin: 2% 0%;
+    }
+
+    /* 3. Block2 */
+
+    .block2 {
+        height: 150px;
+    }
+
+    .go_section {
+        font-size: 8px;
+
+    }
+
+    .for_m_w {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    /* 4. Block3 */
+
+    .block3 {
+        height: 150px;
+    }
+
+    .left_text1 {
+        font-size: 13px;
+        line-height: 16px;
+
+    }
+
+    .left_text2 {
+        font-size: 6px;
+        line-height: 13px;
+    }
+
+    .enter_address::placeholder {
+        font-size: 7px;
+        line-height: 2px;
+
+        padding-bottom: 0px;
+    }
+
+    .search {
+        border-bottom: 0.5px solid rgba(255, 255, 255, 1);
+    }
+
+    .button_search {
+        width: 30%;
+
+        padding-top: 8px;
+        padding-bottom: 0px
+    }
+
+    .button_search>img {
+        width: 80%;
+    }
+
+    /* 5. Block4  */
+
+    #block4_all {
+        padding: 15% 10% 3% 10%;
+        margin: 0px;
+        height: 40%;
+
+    }
+
+    .block4_center {
+        height: 220px;
+    }
+
+    .block4_left,
+    .block4_right {
+        height: 220px;
+    }
+
+    .name_jewelry,
+    .composition,
+    .price {
+        font-size: 6px;
+        line-height: 5px;
+    }
+
+    /* 6. Block5  */
+
+    .block5_text {
+        padding: 5% 25% 5% 6%;
+    }
+
+    .block5_text>p {
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    .block5_foto>img {
+        width: 30%;
+    }
+
+    .block5_icon {
+        width: 12%;
+    }
+
+    .block5_icon>a>img {
+        width: 70%;
+    }
+
+    /* 7. Block6 */
+
+    .block6 {
+        height: 150px;
+
+    }
+
+    .right_text1 {
+        font-size: 6px;
+        line-height: 9px;
+
+        padding-right: 20%;
+    }
+
+    .right_text2 {
+        font-size: 6px;
+        margin-bottom: 2%;
+        margin-top: 1%;
+    }
+
+    .sub>p {
+        font-size: 6px;
+        line-height: 10px;
+        margin: 0px;
+        padding-bottom: 0px;
+    }
+
+    .email::placeholder {
+        font-size: 6px;
+    }
+
+    .search1 {
+        border-bottom: 0.1px solid rgb(0, 0, 0);
+    }
+
+    .button_email {
+        width: 30%;
+
+        padding-top: 8px;
+    }
+
+    .button_email>img {
+        width: 70%;
+    }
+
+    /* 8. Footer  */
+
+    .link {
+        font-size: 4px;
+        line-height: 15px;
+
+        padding-right: 4%;
+        padding-left: 4%;
+
+    }
+
+    .footer_contact_left1 {
+        font-size: 4px;
+        line-height: 0px;
+    }
+
+    .footer_contact_left2 {
+        font-size: 6px;
+        line-height: 10px;
+    }
+
+    .sub2 {
+        font-size: 4px;
+        line-height: 0px;
+    }
+
+    .search3>.enter_address::placeholder {
+        font-size: 5px;
+    }
+
+    .footer_icon>a>img {
+        width: 60%;
+    }
+
+    .market>img {
+        width: 80%;
+    }
+
+
+    .search3 {
+        border-bottom: 0.5px solid rgba(255, 255, 255, 1);
+        padding: 0px;
+    }
+}
+
+/* #endregion */
