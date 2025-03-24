@@ -228,14 +228,14 @@ header {
 }
 
 .men_section {
-    background-image: url(/картинки/men.jpg);
+    background-image: url(картинки/men.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 49%;
 }
 
 .women_section {
-    background-image: url(/картинки/women.jpg);
+    background-image: url(картинки/women.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 49%;
@@ -364,7 +364,7 @@ header {
 
 .block3_right {
     width: 50%;
-    background-image: url(/картинки/map.png);
+    background-image: url(картинки/map.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -388,7 +388,7 @@ header {
 }
 
 .block4_center {
-    background-image: url(/картинки/necklace\ etolie.png);
+    background-image: url(картинки/necklace/etolie.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -489,7 +489,7 @@ header {
 
 .block6_left {
     width: 50%;
-    background-image: url(/картинки/img_block6.svg);
+    background-image: url(картинки/img_block6.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
